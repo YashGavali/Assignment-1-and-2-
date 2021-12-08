@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+background-color: cadetblue;
+}
+.dating-form{
+    font-size: 15px;
+    margin-top: 15vh;
+    padding:10px; 
+    background-color: blueviolet;
+    margin:0 auto;
+    border-radius:5px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    line-height: 1rem;
+}
+button{
+    background-color:lightslategrey;
+    color:black;
+}

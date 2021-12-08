@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="main">
+    <form class="dating-form">
+        <div class="form-control">
+        <label for="name">Name:</label>
+<input type="text" name="name" placeholder="Enter your Name">
+</div>
+<div class="form-control">
+    <label for="Email">Email:</label>
+<input type="email" name="Email" placeholder="Enter your Email">
+</div>
+<div class="form-control">
+    <label for="Phone">Phone:</label>
+    <input type="tel" id="Phone" name="Phone"placeholder="Enter your Phone no" pattern="[0-9]{10}">
+</div>
+<div class="form-control">
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender">Male
+    <input type="radio" name="gender">Female
+</div>
+<div class="form-control">
+    <label for="date of proposed outing">Date of proposed outing</label>
+<input type="date" name="date of proposed outing">
+</div>
+<div class="form-control">
+    <p><label for="check">Check all that apply to you: </label></p>
+    <p> <input type="checkbox" name="check" value="I have tattoos and/or piercings">I have tattoos and/or piercings</p>
+    <p><input type="checkbox" name="check" value="I am more than 2 years older than my daughter">I am more than 2 years older than my daughter</p> 
+    <p><input type="checkbox" name="check" value="I own a panel van or Ferrari"> I own a panel van or Ferrari</p>
+   <p><input type="checkbox" name="check" value="I work full-time">I work full-time</p>
+   <p><input type="checkbox" name="check" value="My parents are rich">My parents are rich</p> 
+  <p><input type="checkbox" name="check" value="Is the date at a private/public location">Is the date at a private/public location</p>
+</div>
+<div class="form-control"> 
+    <label for="Education">Education:</label>
+<input type="text" name="Education">
+</div>
+<div class="form-control">
+<p><label for="details">Why do you want to date my daughter (50 words input)?</label></p>
+<textarea name="details" rows="4" cols="50"></textarea>
+</div>
+<div class="form-control">
+    <label for="reference">Please provide 1 contact point for  reference</label>
+    <input type="tel" id="reference" pattern="[0-9]{10}">
+</div>
+<div class="form-control">
+    <label for="bank-stm">Please upload your bank statement</label>
+    <input type="file" name="bank-stm">
+</div>
+<div class="form-control">
+    <button>Submit</button>
+</div>
+    </form>
+</body>
+</html> 
