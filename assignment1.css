@@ -1,0 +1,36 @@
+body{
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
+    
+color:azure;
+}
+.heading{
+    color:rgb(28, 36, 148);
+    margin-left: 35rem;
+  }
+  .image{
+margin-left:10rem;
+
+  }
+  .footer{
+    float:right;
+  }
+  p{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  ul{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding:2rem;
+  }
+  .quote{
+    font-family: 'Corinthia', cursive;
+    font-size: 50px;
+  }
+  .footer{
+      text-decoration: none;
+      font-size: 2em;
+      color:lightsalmon
+  }
